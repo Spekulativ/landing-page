@@ -18,6 +18,13 @@ position: fixed;
 li {
     list-style-type: none;
     font-size: 19px;
+    transition-duration: 0.1s;
+}
+
+li:hover {
+    margin-top: 1px;
+    margin-left: 1px;
+    cursor: pointer;
 }
 
 .navbar {
@@ -79,4 +86,12 @@ h2 {
     height: 30px;
     border: none;
     margin-top: 20px;
+    transition-duration: 0.3s;
 }
+
+.Prøv:hover {
+    background-color: rgb(32, 32, 169);
+    color: white;
+    cursor: pointer;
+}
+
