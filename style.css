@@ -145,15 +145,17 @@ h2 {
 
 
 @media only screen and (max-width: 600px) {
+
   .second-bar {
     height: 700px;
+
   }
   .content-second-bar {
     margin-top: 100px;
-    padding-left: 10px;
+    justify-content: center;
   }
     .boxes {
-        padding-left: 40px;
+        justify-content: center;
     }
   }
 
