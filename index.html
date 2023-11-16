@@ -34,13 +34,24 @@
     <section class="second-bar">
       <div class="content-second-bar">
         <div class="textnext2map">
-          <h2>Kortvisning har værdi</h2>
-          <p>Tilgængeligt gennem Leaflet.js fantatiske library, der kan bruges til at vise open data</p>
-          <button class="TryButton" onclick="window.location.href='https://leafletjs.com/'">Prøv selv</button>
+          <h2>Kortdata på web</h2>
+          <p>
+            Tilgængeligt gennem Leaflet.js fantatiske library, der kan bruges
+            til at vise open data
+          </p>
+          <button
+            class="TryButton"
+            onclick="window.location.href='https://leafletjs.com/'"
+          >
+            Prøv selv
+          </button>
         </div>
         <div id="map"></div>
         <script>
-          var map = L.map("map").setView([56.15332427174067, 10.213845842097626], 18);
+          var map = L.map("map").setView(
+            [56.15332427174067, 10.213845842097626],
+            18
+          );
           L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             maxZoom: 40,
             attribution:
@@ -50,31 +61,65 @@
       </div>
     </section>
     <section class="third-bar">
-        <div class="content-third-bar">
+      <div class="content-third-bar">
+        <h2 id="info-2">Her skal der være info.</h2>
+        <div class="boxes">
+          <div class="boxtekst">
+            <div class="box"></div>
+            <p class="tekstibox">Eksempel med tekst herunder billede</p>
+          </div>
+          <div class="boxtekst">
+            <div class="box"></div>
 
-            <h2 id="info-2">Her skal der være info.</h2>
-                <div class="boxes">
-                    <div class="boxtekst">
-                        <div class="box"></div>
-                        <p class="tekstibox">Eksempel med tekst herunder billede</p>
-                    </div>
-                    <div class="boxtekst">
-                        <div class="box"></div>
-                        
-                        <p class="tekstibox">Eksempel med en anden tekst herunder billede</p>
-                    </div>
-                    <div class="boxtekst">
-                        <div class="box"></div>
-                        
-                        <p class="tekstibox">Eksempel med en tredje tekst herunder billede</p>
-                    </div>
-                    <div class="boxtekst">
-                        <div class="box"></div>
-                        
-                        <p class="tekstibox">Eksempel med en fjerde tekst herunder billede</p>
-                    </div>
-                </div>
-            </div>
-            </section>
-        </body>
-        </html>
+            <p class="tekstibox">
+              Eksempel med en anden tekst herunder billede
+            </p>
+          </div>
+          <div class="boxtekst">
+            <div class="box"></div>
+
+            <p class="tekstibox">
+              Eksempel med en tredje tekst herunder billede
+            </p>
+          </div>
+          <div class="boxtekst">
+            <div class="box"></div>
+
+            <p class="tekstibox">
+              Eksempel med en fjerde tekst herunder billede
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fourth-bar">
+      <div class="content-fourth-bar">
+        <div class="Kierkegaard">
+          Lad os et Øieblik betragte Naturen. Med hvilken uendelig Kjerlighed
+          omfatter Naturen eller Gud i Naturen alt det Forskjellige, der har Liv
+          og Tilvær! Erindre engang, hvad Du jo saa ofte har glædet Dig ved at
+          betragte, erindre Dig Markens Deilighed! Der er ingen, o, ingen
+          Forskjel paa Kjerligheden – men paa Blomsterne hvilken Forskjel! Selv
+          den mindste, den ubetydeligste, den uanseeligste, den endog af sin
+          nærmeste Omgivelse overseete lille Stakkel, som Du neppe opdager uden
+          Du seer nøie til, det er som havde den ogsaa sagt til Kjerligheden:
+          lad mig blive Noget for mig selv, noget Eiendommeligt. Og da har
+          Kjerligheden hjulpet den til at blive sit Eiendommelige, men langt
+          skjønnere end hvad den lille Stakkel nogensinde havde turdet haabe.
+          Hvilken Kjerlighed! Det Første er, at den ingen Forskjel gjør, slet
+          ingen; det Næste, der er ligesom dette Første, er, at den uendelig
+          forskjelliggjør sig i at elske det Forskjellige. Vidunderlige
+          Kjerlighed; thi hvad er dog saa vanskeligt, som i at elske slet ikke
+          at gjøre Forskjel, og naar man slet ikke gjør Forskjel, hvad er da saa
+          vanskeligt, som at gjøre Forskjel! Tænk Dig, at Naturen var, som vi
+          Mennesker ere, streng, herskesyg, kold, partisk, smaalig, lunefuld –
+          og tænk Dig, ja tænk Dig saa, hvad det vilde blive til med Markens
+          Deilighed!
+        </div>
+        <div id="Kierkegaardcitering">
+          Søren Kierkegaard fra Kjerlighedens Gjerninger, 1847
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
