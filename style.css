@@ -12,6 +12,7 @@ color: white;
 margin-top: 0;
 overflow: hidden;
 position: fixed;
+z-index: 2;
 }
 
 
@@ -22,8 +23,8 @@ li {
 }
 
 li:hover {
-    margin-top: 1px;
-    margin-left: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
     cursor: pointer;
 }
 
@@ -57,7 +58,7 @@ li:hover {
 }
 
 .content-second-bar {
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
@@ -68,6 +69,7 @@ li:hover {
     height: 250px;
     width: 300px;
     border-radius: 10px;
+    z-index: 1;
 }
 
 h2 { 
@@ -96,3 +98,27 @@ h2 {
     cursor: pointer;
 }
 
+.third-bar {
+    background-color: rgb(223, 223, 231);
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .second-bar {
+        height: 700px;
+    }
+    .content-second-bar {
+        margin-top: 100px;
+        padding-left: 10px;
+    }
+    
+    
+}
