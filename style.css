@@ -213,6 +213,17 @@ h2 {
     font-weight: bold;
 }
 
+.bottom-bar {
+background-color: rgb(13, 13, 50);
+    color: rgb(218, 218, 218);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+  }
+
 
 @media only screen and (max-width: 650px) {
 
